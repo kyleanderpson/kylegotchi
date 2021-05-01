@@ -9,12 +9,15 @@
 
     <div class="mainContainer">
       <div class="frameContainer">
-        <img src="frame.png" alt="cute frame" width = "75%">
+        <!-- <img src="frame.png" alt="cute frame" width = "75%"> -->
       </div>
-      <div class="videoContainer">
-        <video width = "620px" autoplay muted loop>
-          <source src="testvideo.mp4" type="video/mp4" >
-        </video>
+      <div class="tamagotchiContainer">
+        <div class="videoContainer">
+          <video class="videoFit"width = "620px" autoplay muted loop>
+            <source src="testvideo.mp4" type="video/mp4" >
+          </video>
+        </div>
+        <img class = "tamagotchiFrame" src="tamagotchiframe1.png" alt="tamagotchi">
       </div>
       <div class="feedBox">
         Feed
@@ -26,6 +29,10 @@
         switch device
       </div>
     </div>
+    <div id="cursor">
+      <img src="CEOhand.png" alt= "hand in suit pointing" width="450px">
+    </div>
+
 
     <script src = "script.js"></script>
   </body>

@@ -8,25 +8,67 @@
   <body>
 
     <div class="mainContainer">
-      <div class="frameContainer">
-        <!-- <img src="frame.png" alt="cute frame" width = "75%"> -->
-      </div>
       <div class="tamagotchiContainer">
         <div class="videoContainer">
-          <video class="videoFit"width = "620px" autoplay muted loop>
-            <source src="testvideo.mp4" type="video/mp4" >
+          <video id="static"class="videoFit"width = "620px" autoplay muted loop>
+            <source src="tv_static.mp4" type="video/mp4" >
+          </video>
+          <video id="eatVideo"class="videoFit"width = "620px" autoplay muted loop>
+            <source src="eat.mp4" type="video/mp4" >
+          </video>
+          <video id="drinkVideo"class="videoFit"width = "620px" autoplay muted loop>
+            <source src="drink.mp4" type="video/mp4" >
+          </video>
+          <video id="sleepVideo"class="videoFit"width = "620px" autoplay muted loop>
+            <source src="sleep.mp4" type="video/mp4" >
+          </video>
+          <video id="poopVideo"class="videoFit"width = "620px" autoplay muted loop>
+            <source src="poop.mp4" type="video/mp4" >
+          </video>
+          <video id="peeVideo"class="videoFit"width = "620px" autoplay muted loop>
+            <source src="pee.mp4" type="video/mp4" >
+          </video>
+          <video id="playVideo"class="videoFit"width = "620px" autoplay muted loop>
+            <source src="play.mp4" type="video/mp4" >
           </video>
         </div>
         <img class = "tamagotchiFrame" src="tamagotchiframe1.png" alt="tamagotchi">
       </div>
-      <div class="feedBox">
-        Feed
+      <div class="feedBox" id="eat">
+        <img id="postIt" src="postit1.png" alt="post it note" width="200px">
+        <div class="stickyText">
+          <p>EAT</p>
+        </div>
       </div>
-      <div class="playBox">
-        Play
+      <div class="drinkBox" id="drink">
+        <img id="postIt" src="postit1.png" alt="post it note" width="200px">
+        <div class="stickyText">
+          <p>DRINK</p>
+        </div>
       </div>
-      <div class="videoSwitch">
-        switch device
+      <div class="sleepBox" id="sleep">
+        <img id="postIt" src="postit1.png" alt="post it note" width="200px">
+        <div class="stickyText">
+          <p>SLEEP</p>
+        </div>
+      </div>
+      <div class="poopBox" id="poop">
+        <img id="postIt" src="postit1.png" alt="post it note" width="200px">
+        <div class="stickyText">
+          <p>POOP</p>
+        </div>
+      </div>
+      <div class="peeBox" id="pee">
+        <img id="postIt" src="postit1.png" alt="post it note" width="200px">
+        <div class="stickyText">
+          <p>PEE</p>
+        </div>
+      </div>
+      <div class="playBox" id="play">
+        <img id="postIt" src="postit1.png" alt="post it note" width="200px">
+        <div class="stickyText">
+          <p>PLAY</p>
+        </div>
       </div>
     </div>
     <div id="cursor">
